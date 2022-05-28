@@ -6,3 +6,7 @@ except PackageNotFoundError:
     __version__ = "uninstalled"
 __author__ = "Talley Lambert"
 __email__ = "talley.lambert@gmail.com"
+
+
+def func(x: int, y: str) -> None:
+    ...
