@@ -8,5 +8,5 @@ __author__ = "Talley Lambert"
 __email__ = "talley.lambert@gmail.com"
 
 
-def func(x: int, y: str) -> None:
-    ...
+def func(x: int, y: str) -> bool:
+    return x == 5
